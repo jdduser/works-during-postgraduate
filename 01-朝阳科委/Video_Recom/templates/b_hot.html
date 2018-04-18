@@ -1,0 +1,1263 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>微视频推荐|评估系统</title>
+	<meta name="description" content="Bootstrap Metro Dashboard">
+	<meta name="author" content="">
+	<meta name="keyword" content="">
+	<!-- end: Meta -->
+
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- end: Mobile Specific -->
+
+	<!-- start: CSS -->
+	<link id="bootstrap-style" href="../static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../static/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link id="base-style" href="../static/css/style.css" rel="stylesheet">
+	<link id="base-style-responsive" href="../static/css/style-responsive.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- end: CSS -->
+
+
+	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link id="ie-style" href="../static/css/ie.css" rel="stylesheet">
+	<![endif]-->
+
+	<!--[if IE 9]>
+		<link id="ie9style" href="../static/css/ie9.css" rel="stylesheet">
+	<![endif]-->
+
+	<!-- start: Favicon -->
+	<link rel="shortcut icon" href="../static/img/favicon.ico">
+	<!-- end: Favicon -->
+    <script type=text/javascript src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.min.js"></script>
+    <script type=text/javascript>
+
+  $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
+
+{#    ecahrts#}
+    <script src="../static/js/echarts.min.js"></script>
+</head>
+
+<body>
+		<!-- start: Header -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+
+
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="index.html"><span>Vvideo</span></a>
+
+				<!-- start: Header Menu -->
+				<div class="nav-no-collapse header-nav">
+					<ul class="nav pull-right">
+						<li class="dropdown hidden-phone">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="icon-bell"></i>
+								<span class="badge red">
+								7 </span>
+							</a>
+							<ul class="dropdown-menu notifications">
+								<li class="dropdown-menu-title">
+ 									<span>You have 11 notifications</span>
+									<a href="#refresh"><i class="icon-repeat"></i></a>
+								</li>
+                            	<li>
+                                    <a href="#">
+										<span class="icon blue"><i class="icon-user"></i></span>
+										<span class="message">New user registration</span>
+										<span class="time">1 min</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon green"><i class="icon-comment-alt"></i></span>
+										<span class="message">New comment</span>
+										<span class="time">7 min</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon green"><i class="icon-comment-alt"></i></span>
+										<span class="message">New comment</span>
+										<span class="time">8 min</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon green"><i class="icon-comment-alt"></i></span>
+										<span class="message">New comment</span>
+										<span class="time">16 min</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon blue"><i class="icon-user"></i></span>
+										<span class="message">New user registration</span>
+										<span class="time">36 min</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon yellow"><i class="icon-shopping-cart"></i></span>
+										<span class="message">2 items sold</span>
+										<span class="time">1 hour</span>
+                                    </a>
+                                </li>
+								<li class="warning">
+                                    <a href="#">
+										<span class="icon red"><i class="icon-user"></i></span>
+										<span class="message">User deleted account</span>
+										<span class="time">2 hour</span>
+                                    </a>
+                                </li>
+								<li class="warning">
+                                    <a href="#">
+										<span class="icon red"><i class="icon-shopping-cart"></i></span>
+										<span class="message">New comment</span>
+										<span class="time">6 hour</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon green"><i class="icon-comment-alt"></i></span>
+										<span class="message">New comment</span>
+										<span class="time">yesterday</span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="icon blue"><i class="icon-user"></i></span>
+										<span class="message">New user registration</span>
+										<span class="time">yesterday</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown-menu-sub-footer">
+                            		<a>View all notifications</a>
+								</li>
+							</ul>
+						</li>
+						<!-- start: Notifications Dropdown -->
+						<li class="dropdown hidden-phone">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="icon-calendar"></i>
+								<span class="badge red">
+								5 </span>
+							</a>
+							<ul class="dropdown-menu tasks">
+								<li class="dropdown-menu-title">
+ 									<span>You have 17 tasks in progress</span>
+									<a href="#refresh"><i class="icon-repeat"></i></a>
+								</li>
+								<li>
+                                    <a href="#">
+										<span class="header">
+											<span class="title">iOS Development</span>
+											<span class="percent"></span>
+										</span>
+                                        <div class="taskProgress progressSlim red">80</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+										<span class="header">
+											<span class="title">Android Development</span>
+											<span class="percent"></span>
+										</span>
+                                        <div class="taskProgress progressSlim green">47</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+										<span class="header">
+											<span class="title">ARM Development</span>
+											<span class="percent"></span>
+										</span>
+                                        <div class="taskProgress progressSlim yellow">32</div>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="header">
+											<span class="title">ARM Development</span>
+											<span class="percent"></span>
+										</span>
+                                        <div class="taskProgress progressSlim greenLight">63</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+										<span class="header">
+											<span class="title">ARM Development</span>
+											<span class="percent"></span>
+										</span>
+                                        <div class="taskProgress progressSlim orange">80</div>
+                                    </a>
+                                </li>
+								<li>
+                            		<a class="dropdown-menu-sub-footer">View all tasks</a>
+								</li>
+							</ul>
+						</li>
+						<!-- end: Notifications Dropdown -->
+						<!-- start: Message Dropdown -->
+						<li class="dropdown hidden-phone">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="icon-envelope"></i>
+								<span class="badge red">
+								4 </span>
+							</a>
+							<ul class="dropdown-menu messages">
+								<li class="dropdown-menu-title">
+ 									<span>You have 9 messages</span>
+									<a href="#refresh"><i class="icon-repeat"></i></a>
+								</li>
+                            	<li>
+                                    <a href="#">
+										<span class="avatar"><img src="../static/img/avatar.jpg" alt="Avatar"></span>
+										<span class="header">
+											<span class="from">
+
+										     </span>
+											<span class="time">
+										    	6 min
+										    </span>
+										</span>
+                                        <span class="message">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+										<span class="avatar"><img src="../static/img/avatar.jpg" alt="Avatar"></span>
+										<span class="header">
+											<span class="from">
+
+										     </span>
+											<span class="time">
+										    	56 min
+										    </span>
+										</span>
+                                        <span class="message">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+										<span class="avatar"><img src="../static/img/avatar.jpg" alt="Avatar"></span>
+										<span class="header">
+											<span class="from">
+
+										     </span>
+											<span class="time">
+										    	3 hours
+										    </span>
+										</span>
+                                        <span class="message">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
+                                        </span>
+                                    </a>
+                                </li>
+								<li>
+                                    <a href="#">
+										<span class="avatar"><img src="../static/img/avatar.jpg" alt="Avatar"></span>
+										<span class="header">
+											<span class="from">
+
+										     </span>
+											<span class="time">
+										    	yesterday
+										    </span>
+										</span>
+                                        <span class="message">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+										<span class="avatar"><img src="../static/img/avatar.jpg" alt="Avatar"></span>
+										<span class="header">
+											<span class="from">
+
+										     </span>
+											<span class="time">
+										    	Jul 25, 2012
+										    </span>
+										</span>
+                                        <span class="message">
+                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
+                                        </span>
+                                    </a>
+                                </li>
+								<li>
+                            		<a class="dropdown-menu-sub-footer">View all messages</a>
+								</li>
+							</ul>
+						</li>
+
+						<!-- start: User Dropdown -->
+						<li class="dropdown">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="halflings-icon white user"></i>
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-menu-title">
+ 									<span>Account Settings</span>
+								</li>
+								<li><a href="#"><i class="halflings-icon user"></i> Profile</a></li>
+								<li><a href="login.html"><i class="halflings-icon off"></i> Logout</a></li>
+							</ul>
+						</li>
+						<!-- end: User Dropdown -->
+					</ul>
+				</div>
+				<!-- end: Header Menu -->
+
+			</div>
+		</div>
+	</div>
+	<!-- start: Header -->
+
+	<div class="container-fluid-full">
+		<div class="row-fluid">
+
+			<!-- start: Main Menu -->
+			<div id="sidebar-left" class="span2">
+				<div class="nav-collapse sidebar-nav">
+					<ul class="nav nav-tabs nav-stacked main-menu">
+						<li><a href="index.html"><i class="icon-bar-chart"></i><span class="hidden-tablet"> 实时热点信息</span></a></li>
+                        <li><a href="b_hot.html"><i class="icon-envelope"></i><span class="hidden-tablet"> 热点排行</span></a></li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> 热点预测</span><span class="label label-important"> 3 </span></a>
+							<ul>
+								<li><a class="submenu" href="submenu.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sub Menu 1</span></a></li>
+								<li><a class="submenu" href="submenu2.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sub Menu 2</span></a></li>
+								<li><a class="submenu" href="submenu3.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sub Menu 3</span></a></li>
+							</ul>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<!-- end: Main Menu -->
+
+			<noscript>
+				<div class="alert alert-block span10">
+					<h4 class="alert-heading">Warning!</h4>
+					<p>You need to have <a href="" target="_blank">JavaScript</a> enabled to use this site.</p>
+				</div>
+			</noscript>
+
+			<!-- start: Content -->
+			<div id="content" class="span10">
+			<!--first--row-->
+			
+			<div class="row-fluid sortable" >
+			 <script>
+		var all_items_JSON;
+		$.ajaxSetup({async:false});
+		$.getJSON($SCRIPT_ROOT+'/b_hot_aiqiyi_label',function(data){
+		all_items_JSON = data.result;
+		all_labels = all_items_JSON['label'];
+		<!--alert(all_labels[0]);-->
+		});
+		<!--从中选取个数最高的10个标签-->
+
+	       </script>
+	       
+                 <!--first--row--first-item-->		 
+		 <div class='row-fluid' style="margin-left:0">
+		 
+		  <div class="widget blue span6" ontablet="span6" ondesktop="span6" >
+
+		 	
+					<h2><span class="glyphicons globe"><i></i></span> 热门标签排行</h2>
+					
+					<hr>
+					
+					<!--动态添加元素-->
+					
+					<div class="content" style="height:180px;">
+						
+						<div class="verticalChart">
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_1" onclick=onclick_bar("1") >
+								
+									<div class="value" style="height: 16%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="1">16%</span>
+										
+									</div>
+								
+								</div>
+								
+								<div class="title" id="11">PL</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_2" onclick=onclick_bar("2")>
+								
+									<div class="value" style="height: 16%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="2">16%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="22">PL</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_3" onclick=onclick_bar("3")>
+								
+									<div class="value" style="height: 12%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="3">12%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="33">GB</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_4" onclick=onclick_bar("4")>
+								
+									<div class="value" style="height: 9%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="4">9%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="44">DE</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_5" onclick=onclick_bar("5")>
+								
+									<div class="value" style="height: 7%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="5" >7%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="55">NL</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_6" onclick=onclick_bar("6")>
+								
+									<div class="value" style="height: 6%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="6">6%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="66">CA</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_7" onclick=onclick_bar("7")>
+								
+									<div class="value" style="height: 5%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="7">5%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="77">FI</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_8" onclick=onclick_bar("8")>
+								
+									<div class="value" style="height: 4%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="8">4%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="88">RU</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_9" onclick=onclick_bar("9")>
+								
+									<div class="value" style="height: 3%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="9">3%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="99">AU</div>
+							
+							</div>
+							
+							<div class="singleBar">
+							
+								<div class="bar" id="bar_10" onclick=onclick_bar("10")>
+								
+									<div class="value" style="height: 1%;">
+										<span style="color: rgb(87, 142, 190); display: inline;" id="10">1%</span>
+									</div>
+								
+								</div>
+								
+								<div class="title" id="1010">N/A</div>
+							
+							</div>	
+							
+							<div class="clearfix"></div>
+							
+						</div>
+					
+
+ <!--点击柱状图后更换数据					-->
+		<script>
+		function onclick_bar(num){
+                 	<!--alert(num);-->
+			<!--cur_data = all_items_JSON[all_labels[num-1]];-->
+			onchange_gender(num);
+			onchange_age(num);
+		    
+		}
+		function onchange_gender(num){
+		echarts_Gender.setOption({
+		series : [
+	{
+	    name:'人数',
+	    type:'bar',
+	    stack: '总量',
+	    label: {
+		normal: {
+		    show: true,
+		    formatter: '{b}'
+		}
+	    },
+	    data:[
+		all_items_JSON[all_labels[num-1]][2]['女'],all_items_JSON[all_labels[num-1]][2]['男']
+	    ]
+	}
+    ]
+		});
+		}
+		
+		function onchange_age(num){
+		echarts_Age.setOption({
+		series : [
+	{
+	    name:'人数',
+	    type:'bar',
+	    stack: '总量',
+	    label: {
+		normal: {
+		    show: true,
+		    formatter: '{b}'
+		}
+	    },
+	    data:[
+		all_items_JSON[all_labels[num-1]][4]['35+'],all_items_JSON[all_labels[num-1]][4]['31-35'],all_items_JSON[all_labels[num-1]][4]['25-30'],
+		all_items_JSON[all_labels[num-1]][4]['18-24'],all_items_JSON[all_labels[num-1]][4]['1-17']
+	    ]
+	}
+    ]
+		});
+		}
+		
+		</script>
+		
+
+		
+		<!--类型占比			-->
+		<script>
+		for(var i=1;i<11;i++){
+		   var span = document.getElementById(i+"");
+		   span.innerHTML = all_items_JSON[all_labels[i-1]][0]['percent'];
+		   var div = document.getElementById(i+""+i);
+		   div.innerHTML = all_labels[i-1];
+		}
+		
+	       </script>					
+            </div>
+		</div>
+	    
+	    
+
+ 
+
+	       
+			
+
+                  <!--first--row--first-item--ends-->
+		  
+		   <!--first-row--second--item-->
+		  <div class="span6">
+		  <!--span3-1-->
+		  <div  style="float:left;">
+		   <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="echarts_Gender" style="width: 350px;height:350px;" ></div>  
+      <script type="text/javascript"> 
+      
+	  var echarts_Gender = echarts.init(document.getElementById('echarts_Gender'));  
+	  var labelRight = {
+    normal: {
+	position: 'right'
+    }
+};
+option_Gender = {
+    title: {
+	text: '性别分布',
+	<!--subtext: 'From ExcelHome',-->
+	sublink: 'http://e.weibo.com/1341556070/AjwF2AgQm'
+    },
+    tooltip : {
+	trigger: 'axis',
+	axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+	    type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+	}
+    },
+    grid: {
+	top: 80,
+	bottom: 30
+    },
+    xAxis: {
+	type : 'value',
+	position: 'top',
+	splitLine: {lineStyle:{type:'dashed'}},
+    },
+    yAxis: {
+	type : 'category',
+	axisLine: {show: false},
+	axisLabel: {show: false},
+	axisTick: {show: false},
+	splitLine: {show: false},
+	data : ['女', '男']
+    },
+    series : [
+	{
+	    name:'人数',
+	    type:'bar',
+	    stack: '总量',
+	    label: {
+		normal: {
+		    show: true,
+		    formatter: '{b}'
+		}
+	    },
+	    data:[
+		all_items_JSON[all_labels[0]][2]['女'],all_items_JSON[all_labels[0]][2]['男']
+	    ]
+	}
+    ]
+};
+echarts_Gender.setOption(option_Gender);
+	  </script>
+	  </div>
+  
+		 
+		  <!--span3-1 ends-->
+		  
+		  <!--span3-2-->
+		  <div  style="float:right;">
+		   <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="echarts_Age" style="width: 350px;height:350px;" ></div>  
+      <script type="text/javascript"> 
+      
+	  var echarts_Age = echarts.init(document.getElementById('echarts_Age'));  
+	  var labelRight = {
+    normal: {
+	position: 'right'
+    }
+};
+option_Age = {
+    title: {
+	text: '年龄分布',
+	<!--subtext: 'From ExcelHome',-->
+	sublink: 'http://e.weibo.com/1341556070/AjwF2AgQm'
+    },
+    tooltip : {
+	trigger: 'axis',
+	axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+	    type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+	}
+    },
+    grid: {
+	top: 80,
+	bottom: 30
+    },
+    xAxis: {
+	type : 'value',
+	position: 'top',
+	splitLine: {lineStyle:{type:'dashed'}},
+    },
+    yAxis: {
+	type : 'category',
+	axisLine: {show: false},
+	axisLabel: {show: false},
+	axisTick: {show: false},
+	splitLine: {show: false},
+	data : ['35+', '31-35', '25-30', '18-24', '1-17']
+    },
+    series : [
+	{
+	    name:'人数',
+	    type:'bar',
+	    stack: '总量',
+	    label: {
+		normal: {
+		    show: true,
+		    formatter: '{b}'
+		}
+	    },
+	    data:[
+		all_items_JSON[all_labels[0]][4]['35+'],all_items_JSON[all_labels[0]][4]['31-35'],all_items_JSON[all_labels[0]][4]['25-30'],
+		all_items_JSON[all_labels[0]][4]['18-24'],all_items_JSON[all_labels[0]][4]['1-17']
+	    ]
+	}
+    ]
+};
+echarts_Age.setOption(option_Age);
+	  </script>
+	  </div>
+  
+		  <!--span3-2 ends-->
+		  </div>
+		  <!--first--row--second--item--ends-->
+		  </div>
+		 <!--row-fluid sortable  ends-->
+                   </div>
+
+			<!--first--row--ends-->
+  
+  
+              
+<!--second--row              -->
+<div class="row-fluid sortable">
+ <!--eCharts--script-->
+	     
+		    <!-- 引入 vintage 主题 -->
+	       <script src="../static/js/shine.js"></script>
+	       <script src="../static/js/china.js">></script>
+	       
+	 <!--eCharts--script--ends-->
+	
+      <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="echarts_Map" style="width: 1500px;height:900px;left:50px;" ></div>  
+      <script type="text/javascript"> 
+      
+	  var echarts_Map = echarts.init(document.getElementById('echarts_Map'));  
+
+option_Map = {
+    title: {
+	text: '密度分布',
+	left: 'center'
+    },
+    tooltip: {
+	trigger: 'item'
+    },
+    visualMap: {
+	min: 0,
+	max: 600000,
+	left: 'left',
+	top: 'bottom',
+	text: ['高','低'],           // 文本，默认为数值文本
+	calculable: true
+    },
+    toolbox: {
+	show: true,
+	orient: 'vertical',
+	left: 'right',
+	top: 'center',
+	feature: {
+	    dataView: {readOnly: false},
+	    restore: {},
+	    saveAsImage: {}
+	}
+    },
+   
+};
+<!--option_Map----ends-->
+
+
+var temp_data_legend_list = [];
+var temp_data_series_list = [];
+for (var i=0;i<10;i++){
+temp_data_legend_list.push(all_labels[i]);
+
+var dic = {
+ name: all_labels[i],
+     type: 'map',
+     mapType: 'china',
+     label: {
+	normal: {
+	    show: true
+	},
+	emphasis: {
+	    show: true
+	    }
+	},
+	data:[
+		{name: '北京',value: all_items_JSON[all_labels[i]][1]['北京市'] },
+		{name: '贵州',value: all_items_JSON[all_labels[i]][1]['贵州省'] },
+		{name: '陕西',value: all_items_JSON[all_labels[i]][1]['陕西省'] },
+		{name: '山西',value: all_items_JSON[all_labels[i]][1]['山西省'] },
+		{name: '福建',value: all_items_JSON[all_labels[i]][1]['福建省'] },
+		{name: '湖北',value: all_items_JSON[all_labels[i]][1]['湖北省'] },
+		{name: '青海',value: all_items_JSON[all_labels[i]][1]['青海省'] },
+		{name: '澳门',value: all_items_JSON[all_labels[i]][1]['澳门特别行政区'] },
+		{name: '西藏',value: all_items_JSON[all_labels[i]][1]['西藏自治区'] },
+		{name: '山东',value: all_items_JSON[all_labels[i]][1]['山东省'] },
+		{name: '海南',value: all_items_JSON[all_labels[i]][1]['海南省'] },
+		{name: '天津',value: all_items_JSON[all_labels[i]][1]['天津市'] },
+		{name: '宁夏',value: all_items_JSON[all_labels[i]][1]['宁夏回族自治区'] },
+		{name: '辽宁',value: all_items_JSON[all_labels[i]][1]['辽宁省'] },
+		{name: '广东',value: all_items_JSON[all_labels[i]][1]['广东省'] },
+		{name: '重庆',value: all_items_JSON[all_labels[i]][1]['重庆市'] },
+		{name: '甘肃',value: all_items_JSON[all_labels[i]][1]['甘肃省'] },
+		{name: '江西',value: all_items_JSON[all_labels[i]][1]['江西省'] },
+		{name: '内蒙古',value: all_items_JSON[all_labels[i]][1]['内蒙古自治区'] },
+		{name: '黑龙江',value: all_items_JSON[all_labels[i]][1]['黑龙江省'] },
+		{name: '河南',value: all_items_JSON[all_labels[i]][1]['河南省'] },
+		{name: '四川',value: all_items_JSON[all_labels[i]][1]['四川省'] },
+		{name: '台湾',value: all_items_JSON[all_labels[i]][1]['台湾'] },
+		{name: '香港',value: all_items_JSON[all_labels[i]][1]['香港特别行政区'] },
+		{name: '云南',value: all_items_JSON[all_labels[i]][1]['云南省'] },
+		{name: '湖南',value: all_items_JSON[all_labels[i]][1]['湖南省'] },
+		{name: '安徽',value: all_items_JSON[all_labels[i]][1]['安徽省'] },
+		{name: '河北',value: all_items_JSON[all_labels[i]][1]['河北省'] },
+		{name: '江苏',value: all_items_JSON[all_labels[i]][1]['江苏省'] },
+		{name: '吉林',value: all_items_JSON[all_labels[i]][1]['吉林省'] },
+		{name: '上海',value: all_items_JSON[all_labels[i]][1]['上海市'] },
+		{name: '新疆',value: all_items_JSON[all_labels[i]][1]['新疆维吾尔自治区'] },
+		{name: '浙江',value: all_items_JSON[all_labels[i]][1]['浙江省'] },
+		{name: '广西',value: all_items_JSON[all_labels[i]][1]['广西壮族自治区'] }
+		]
+}
+temp_data_series_list.push(dic);
+
+}
+<!--for ends----->
+
+echarts_Map.setOption({
+legend: {
+	orient: 'vertical',
+	left: 'left',
+	data:temp_data_legend_list
+    },
+    series:temp_data_series_list
+});
+
+	
+	// 使用刚指定的配置项和数据显示图表。  
+echarts_Map.setOption(option_Map);  
+      
+    </script>  
+	 
+
+
+</div>
+  	 
+
+<!--second-row--ends-->
+                  
+<!--third-row-->
+<div class="row-fluid sortable">
+<!--third  row  first  item  --->
+
+ <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="echarts_Radar" style="width: 1200px;height:700px; left:200px;bottom:100px,top:100px;" ></div>  
+      <script type="text/javascript"> 
+      var echarts_Radar = echarts.init(document.getElementById('echarts_Radar'),"shine");  
+      option_Radar = {
+    title: {
+	text: '星座占比变化',
+	<!--subtext: '纯属虚构',-->
+	x:'right',
+	y:'bottom'
+	<!--left: 'center'-->
+    },
+    tooltip: {
+	trigger: 'item',
+	backgroundColor : 'rgba(0,0,250,0.2)'
+    },
+    legend: {
+	data: (function (){
+	    var list = [];
+	    <!--for (var i = 0; i <10; i++) {-->
+		<!--list.push(2000+i+"");-->
+	    <!--}-->
+	    for (var i=0;i<10;i++){
+                 list.push(all_labels[i]);
+	    }
+	    return list;
+	})()
+    },
+    visualMap: {
+	color: ['red', 'yellow']
+    },
+    radar: {
+       indicator : [
+	   { text: '白羊座', max: 21000},
+	   { text: '金牛座', max: 21000},
+	   { text: '双子座', max: 21000},
+	   { text: '巨蟹座', max: 21000},
+	   { text: '狮子座', max: 21000},
+	   { text: '处女座', max: 21000},
+	   { text: '天秤座', max: 21000},
+	   { text: '天蝎座', max: 21000},
+	   { text: '射手座', max: 21000},
+	   { text: '摩羯座', max: 21000},
+	   { text: '水瓶座', max: 21000},
+	   { text: '双鱼座', max: 21000}
+	]
+    },
+    series : (function (){
+    series = [];
+	for (var i = 0; i < 10; i++) {
+	<!--alert(all_items_JSON[all_labels[i]][3]['baiyang']);-->
+	        series.push({
+		name:all_labels[i],
+		type: 'radar',
+		symbol: 'none',
+		itemStyle: {
+		    normal: {
+			lineStyle: {
+			  width:1
+			}
+		    },
+		    emphasis : {
+			areaStyle: {color:'rgba(0,250,0,0.3)'}
+		    }
+		},
+		data:[
+		  {
+		    value:[
+                        all_items_JSON[all_labels[i]][3]['baiyang'],
+			all_items_JSON[all_labels[i]][3]['jinniu'],
+			all_items_JSON[all_labels[i]][3]['shuangzi'],
+			all_items_JSON[all_labels[i]][3]['juxie'],
+			all_items_JSON[all_labels[i]][3]['shizi'],
+			all_items_JSON[all_labels[i]][3]['chunv'],
+			all_items_JSON[all_labels[i]][3]['tiancheng'],
+			all_items_JSON[all_labels[i]][3]['tianxie'],
+			all_items_JSON[all_labels[i]][3]['sheshou'],
+			all_items_JSON[all_labels[i]][3]['mojie'],
+			all_items_JSON[all_labels[i]][3]['shuiping'],
+			all_items_JSON[all_labels[i]][3]['shuangyu']
+		    ],
+		    name: all_labels[i]
+		  }
+		]
+	    });
+	
+	}
+	return series;
+    })()
+};
+
+echarts_Radar.setOption(option_Radar);
+      </script>
+
+
+<!--third  row  first  item  ends--->
+
+
+<!--third  row  second  item-->
+
+<!--third row second item  ends-->
+</div>
+ <!--third--row--ends-->
+                
+<!--fourth--row--starts-->
+<div class="row-fluid sortable">
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="echarts_Interests" style="width: 1200px;height:550px; left:210px;" ></div>  
+      <script type="text/javascript"> 
+      var echarts_Interests = echarts.init(document.getElementById('echarts_Interests'));
+      var xAxisData = [];
+var data1 = [];
+var data2 = [];
+
+var data_of_label_1 = []
+var data_of_label_2 = []
+var data_of_label_3 = []
+var data_of_label_4 = []
+var data_of_label_5 = []
+var data_of_label_6 = []
+var data_of_label_7 = []
+var data_of_label_8 = []
+var data_of_label_9 = []
+var data_of_label_10 = []
+
+<!--for (var i = 0; i < 100; i++) {-->
+    <!--xAxisData.push('类目' + i);-->
+    <!--data1.push((Math.sin(i / 5) * (i / 5 -10) + i / 6) * 5);-->
+    <!--data2.push((Math.cos(i / 5) * (i / 5 -10) + i / 6) * 5);-->
+<!--}-->
+
+for (var interest in all_items_JSON[all_labels[0]][6]){
+xAxisData.push(interest);
+
+
+data_of_label_1.push(all_items_JSON[all_labels[0]][6][interest]);
+data_of_label_2.push(all_items_JSON[all_labels[1]][6][interest]);
+data_of_label_3.push(all_items_JSON[all_labels[2]][6][interest]);
+data_of_label_4.push(all_items_JSON[all_labels[3]][6][interest]);
+data_of_label_5.push(all_items_JSON[all_labels[4]][6][interest]);
+data_of_label_6.push(all_items_JSON[all_labels[5]][6][interest]);
+data_of_label_7.push(all_items_JSON[all_labels[6]][6][interest]);
+data_of_label_8.push(all_items_JSON[all_labels[7]][6][interest]);
+data_of_label_9.push(all_items_JSON[all_labels[8]][6][interest]);
+data_of_label_10.push(all_items_JSON[all_labels[9]][6][interest]);
+}
+<!--for end------>
+
+
+
+option_Interests = {
+    title: {
+	text: '兴趣分布',
+	left: 'center',
+	y:'bottom'
+    },
+    legend: {
+	data: [all_labels[0],all_labels[1],all_labels[2],all_labels[3],all_labels[4],all_labels[5],all_labels[6],all_labels[7],all_labels[8],all_labels[9]],
+	align: 'left'
+    },
+    toolbox: {
+	// y: 'bottom',
+	feature: {
+	    magicType: {
+		type: ['stack', 'tiled']
+	    },
+	    dataView: {},
+	    saveAsImage: {
+		pixelRatio: 2
+	    }
+	}
+    },
+    tooltip: {},
+    xAxis: {
+	data: xAxisData,
+	silent: false,
+	splitLine: {
+	    show: false
+	}
+    },
+    yAxis: {
+    },
+    series: [{
+	name: all_labels[0],
+	type: 'bar',
+	data: data_of_label_1,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[1],
+	type: 'bar',
+	data: data_of_label_2,
+	animationDelay: function (idx) {
+	    return idx * 10 + 100;
+	}
+    },
+    {
+	name: all_labels[2],
+	type: 'bar',
+	data: data_of_label_3,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[3],
+	type: 'bar',
+	data: data_of_label_4,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[4],
+	type: 'bar',
+	data: data_of_label_5,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[5],
+	type: 'bar',
+	data: data_of_label_6,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[6],
+	type: 'bar',
+	data: data_of_label_7,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[7],
+	type: 'bar',
+	data: data_of_label_8,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[8],
+	type: 'bar',
+	data: data_of_label_9,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    },
+    {
+	name: all_labels[9],
+	type: 'bar',
+	data: data_of_label_10,
+	animationDelay: function (idx) {
+	    return idx * 10;
+	}
+    }],
+    animationEasing: 'elasticOut',
+    animationDelayUpdate: function (idx) {
+	return idx * 5;
+    }
+};
+echarts_Interests.setOption(option_Interests);
+      </script>
+      
+</div>
+<!--fourth--row--ends-->
+
+
+
+
+                
+                
+                </div>
+            	<!-- end: Content -->
+
+	</div><!--/row-->
+{#                table------ends#}
+
+<!--/row-->
+
+	</div>
+	</div><!--/.fluid-container-->
+
+
+
+
+
+
+	<footer>
+
+		<p>
+			<span style="text-align:left;float:left">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></span>
+
+		</p>
+
+	</footer>
+
+	<!-- start: JavaScript-->
+
+		<script src="../static/js/jquery-1.9.1.min.js"></script>
+	<script src="../static/js/jquery-migrate-1.0.0.min.js"></script>
+
+		<script src="../static/js/jquery-ui-1.10.0.custom.min.js"></script>
+
+		<script src="../static/js/jquery.ui.touch-punch.js"></script>
+
+		<script src="../static/js/modernizr.js"></script>
+
+		<script src="../static/js/bootstrap.min.js"></script>
+
+		<script src="../static/js/jquery.cookie.js"></script>
+
+		<script src='../static/js/fullcalendar.min.js'></script>
+
+		<script src='../static/js/jquery.dataTables.min.js'></script>
+
+		<script src="../static/js/excanvas.js"></script>
+	<script src="../static/js/jquery.flot.js"></script>
+	<script src="../static/js/jquery.flot.pie.js"></script>
+	<script src="../static/js/jquery.flot.stack.js"></script>
+	<script src="../static/js/jquery.flot.resize.min.js"></script>
+
+		<script src="../static/js/jquery.chosen.min.js"></script>
+
+		<script src="../static/js/jquery.uniform.min.js"></script>
+
+		<script src="../static/js/jquery.cleditor.min.js"></script>
+
+		<script src="../static/js/jquery.noty.js"></script>
+
+		<script src="../static/js/jquery.elfinder.min.js"></script>
+
+		<script src="../static/js/jquery.raty.min.js"></script>
+
+		<script src="../static/js/jquery.iphone.toggle.js"></script>
+
+		<script src="../static/js/jquery.uploadify-3.1.min.js"></script>
+
+		<script src="../static/js/jquery.gritter.min.js"></script>
+
+		<script src="../static/js/jquery.imagesloaded.js"></script>
+
+		<script src="../static/js/jquery.masonry.min.js"></script>
+
+		<script src="../static/js/jquery.knob.modified.js"></script>
+
+		<script src="../static/js/jquery.sparkline.min.js"></script>
+
+		<script src="../static/js/counter.js"></script>
+
+		<script src="../static/js/retina.js"></script>
+
+		<script src="../static/js/custom.js"></script>
+		
+		<script src="../static/js/Chart.js"></script>
+	<!-- end: JavaScript-->
+	
+	
+</body>
+</html>
