@@ -1,0 +1,239 @@
+接口:
+——————————————————————————————————————————————————————————————————————————————
+数据分析页面获取相应所有数据的接口。
+
+HTTP请求方式:POST
+
+支持格式: JSON
+
+前端发送的数据： 
+	{
+		business_name: 'xxxxxxx', //业务名
+		platform: 'xxxxxx', //平台 eg：‘Iphone’
+		edition: 'xxxxx', //版本
+		time: 'xxxxxxxx-xxxxxxxx', //时间范围 eg：20170203-20130216
+		granularity: 'xxxx' //颗粒度 eg：一周 w 一天 d 一小时 h
+	}
+
+后端发送的数据：
+{
+	//json数据里包含三个对象，table、sort、time
+	table:{
+			original:{
+				PV: {
+					‘xxxxxxxx’ : xxxxx, //时间：时间对应的数值
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				UV: {
+					‘xxxxxxxx’ : xxxxx,
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				success_rate: //成功率 {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				aver_time: //平均耗时 {
+					‘xxxxxxxx’ : xxxxx,
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				local_time: //本地耗时 {
+					‘xxxxxxxx’ : xxxxx,
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				network_time: //网络耗时 {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				PV_total: xxxxxxx,
+				UV_total: xxxxxxx,
+				success_aver: xx,
+				aver_average: xx,
+				local_average: xx,
+				net_average: xx
+			},
+
+			variation1:{
+				PV: {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				UV: {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				success_rate: //成功率 {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				aver_time: //平均耗时 {
+					‘xxxxxxxx’ : xxxxx, 				‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				local_time: //本地耗时 {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				network_time: //网络耗时 {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				},
+				PV_total: xxxxxxx,
+				UV_total: xxxxxxx,
+				success_aver: xx,
+				aver_average: xx,
+				local_average: xx,
+				net_average: xx
+			},
+
+			variation2:{
+				PV:{
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				UV:{
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				success_rate: {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				aver_time: {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				local_time: {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				network_time: {
+					‘xxxxxxxx’ : xxxxx, 
+					‘xxxxxxxx’ : xxxxx,
+					……
+				}，
+				PV_total: xxxxxxx,
+				UV_total: xxxxxxx,
+				success_aver: xx,
+				aver_average: xx,
+				local_average: xx,
+				net_average: xx
+			}
+			……
+		},
+		sort:{
+			top1:{
+				original: xxx,
+				variation1: xxx,
+				variation2: xxx,
+				……
+			},
+			top2:{
+				original: xxx,
+				variation1: xxx,
+				variation2: xxx,
+				……
+			},
+			top3:{
+				original: xxx,
+				variation1: xxx,
+				variation2: xxx,
+				……
+			}
+			……
+		},
+		time:{
+			local:{
+				0-1s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				1-2s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				2-3s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				3-4s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				4-5s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				5s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				}
+			},
+			net:{
+				0-1s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				1-2s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				2-3s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				3-4s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				4-5s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				},
+				5s:{
+					original: xxx,
+					variation1: xxx,
+					variation2: xxx,
+					……
+				}
+			}
+		}
+
+}

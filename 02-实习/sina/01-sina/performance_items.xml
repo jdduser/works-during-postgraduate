@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itmes id="Android">
+	<item id="load_article" name="文章加载" />
+	<item id="send_blog" name="发微博" />
+	<item id="upload_file" name="文件上传"/>
+	<item id="refresh_feed" name="feed刷新"/>
+	<item id="refresh_pagelist" name="pagelist刷新"/>
+	<item id="preload_article" name="文章预加载"/>
+	<item id="app_launch" name="微博启动速度"/>
+</itmes>
+<itmes id="iPhone">
+	<item id="load_article" name="文章加载" />
+	<item id="send_blog" name="发微博" />
+	<item id="upload_file" name="文件上传"/>
+	<item id="refresh_feed" name="feed刷新"/>
+	<item id="refresh_pagelist" name="pagelist刷新"/>
+	<item id="preload_article" name="文章预加载"/>
+	<item id="app_launch" name="微博启动速度"/>
+</itmes>

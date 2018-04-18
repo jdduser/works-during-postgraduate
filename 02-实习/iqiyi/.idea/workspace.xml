@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="392fdfc3-17ff-45f7-a477-8c9c3e6ddbef" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portal-ui/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ele</find>
+      <find>el-button</find>
+      <find>tabler</find>
+      <find>report</find>
+      <find>report2</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/portal-ui/src/components/pages/webdata/WebDataReport.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/portal-ui/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="35" />
+    <option name="width" value="1440" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="10-iqiyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portal-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="editor.config.accepted" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="392fdfc3-17ff-45f7-a477-8c9c3e6ddbef" name="Default" comment="" />
+      <created>1509932055894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509932055894</updated>
+      <workItem from="1509932057658" duration="4769000" />
+      <workItem from="1509967199966" duration="1295000" />
+      <workItem from="1510020802782" duration="833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6897000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="35" width="1440" height="830" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41416892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/HomeCenter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/HomeHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1510020946000" expanded="false" signature="1202:1244" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1358:1648" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1717:1816" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1752:1804" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1848:3195" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1865:3186" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="1876:2289" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="1889:2285" ph="{&quot;name&quot;: 'xxx'...}" />
+            <marker date="1510020946000" expanded="true" signature="2112:2279" ph="{&quot;name&quot;: ''...}" />
+            <marker date="1510020946000" expanded="true" signature="2300:2473" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2326:2469" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2486:2734" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2522:2730" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2584:2617" ph="{&quot;type&quot;: 'warning'...}" />
+            <marker date="1510020946000" expanded="true" signature="2630:2723" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2748:3184" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3020:3180" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3211:5018" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="3322:3353" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3379:3438" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3483:3532" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3541:3608" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3621:3684" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3707:3754" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3762:3839" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3845:3926" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3939:4000" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4015:4037" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4045:4088" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4097:4139" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4180:4281" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4319:4427" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4441:4628" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4665:4778" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4875:5010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/management/StoreManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="242" column="10" lean-forward="false" selection-start-line="242" selection-start-column="10" selection-end-line="242" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/webdata/WebDataReport.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#el-col#0;n#el-row#0;n#el-form#0;n#div#0;n#div#0;n#el-row#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/HomeCenter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/HomeHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1510020946000" expanded="false" signature="1202:1244" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1358:1648" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1717:1816" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1752:1804" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1848:3195" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1865:3186" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="1876:2289" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="1889:2285" ph="{&quot;name&quot;: 'xxx'...}" />
+            <marker date="1510020946000" expanded="true" signature="2112:2279" ph="{&quot;name&quot;: ''...}" />
+            <marker date="1510020946000" expanded="true" signature="2300:2473" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2326:2469" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2486:2734" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2522:2730" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2584:2617" ph="{&quot;type&quot;: 'warning'...}" />
+            <marker date="1510020946000" expanded="true" signature="2630:2723" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2748:3184" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3020:3180" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3211:5018" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="3322:3353" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3379:3438" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3483:3532" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3541:3608" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3621:3684" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3707:3754" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3762:3839" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3845:3926" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3939:4000" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4015:4037" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4045:4088" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4097:4139" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4180:4281" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4319:4427" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4441:4628" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4665:4778" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4875:5010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/management/StoreManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/webdata/WebDataReport.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="127" column="27" lean-forward="false" selection-start-line="127" selection-start-column="27" selection-end-line="127" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#el-col#0;n#el-row#0;n#el-form#0;n#div#0;n#div#0;n#el-row#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/management/StoreManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="242" column="10" lean-forward="false" selection-start-line="242" selection-start-column="10" selection-end-line="242" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/HomeHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1510020946000" expanded="false" signature="1202:1244" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1358:1648" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1717:1816" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1752:1804" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1848:3195" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="1865:3186" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="1876:2289" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="1889:2285" ph="{&quot;name&quot;: 'xxx'...}" />
+            <marker date="1510020946000" expanded="true" signature="2112:2279" ph="{&quot;name&quot;: ''...}" />
+            <marker date="1510020946000" expanded="true" signature="2300:2473" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2326:2469" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2486:2734" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2522:2730" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2584:2617" ph="{&quot;type&quot;: 'warning'...}" />
+            <marker date="1510020946000" expanded="true" signature="2630:2723" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="2748:3184" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3020:3180" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3211:5018" ph="..." />
+            <marker date="1510020946000" expanded="true" signature="3322:3353" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3379:3438" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3483:3532" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3541:3608" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3621:3684" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3707:3754" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3762:3839" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3845:3926" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="3939:4000" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4015:4037" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4045:4088" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4097:4139" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4180:4281" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4319:4427" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4441:4628" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4665:4778" ph="{...}" />
+            <marker date="1510020946000" expanded="true" signature="4875:5010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/src/components/pages/HomeCenter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7995">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal-ui/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
